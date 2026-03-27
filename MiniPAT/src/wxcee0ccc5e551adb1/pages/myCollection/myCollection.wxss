@@ -1,0 +1,84 @@
+.myCollection {
+    margin: 30rpx;
+}
+
+.myCollection .biographicalNotes {
+    height: 100rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    width: 100rpx;
+}
+
+.myCollection .title {
+    align-items: center;
+    color: #151719;
+    font-size: 34rpx;
+    font-weight: 500;
+    margin-bottom: 20rpx;
+    padding: 24rpx 0;
+}
+
+.myCollection .title,.myCollection .title .cell-time {
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFangSC,PingFang SC;
+}
+
+.myCollection .title .cell-time {
+    color: #52585f;
+    font-size: 28rpx;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-top: 32rpx;
+}
+
+.myCollection .van-cell-list {
+    background: #fff!important;
+    border-radius: 16rpx!important;
+    box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(0,0,0,.1)!important;
+    box-sizing: border-box!important;
+    margin-bottom: 20rpx!important;
+    padding: 0!important;
+}
+
+.cell-time .delete {
+    height: 32rpx;
+    margin: 0 20rpx;
+    width: 32rpx;
+}
+
+.myCollection .list-tips {
+    color: #747577;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    text-align: center;
+}
+
+.myCollection-add {
+    bottom: 0;
+    box-shadow: inset 0rpx 1rpx 2rpx 0rpx rgba(0,0,0,.1);
+    padding: 16rpx 0 80rpx;
+    position: fixed;
+    width: 750rpx;
+}
+
+.myCollection-add,.myCollection-add view {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.myCollection-add view {
+    background: #fff;
+    border: 2rpx solid #824c96;
+    border-radius: 40rpx;
+    color: #824c96;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 32rpx;
+    font-weight: 400;
+    height: 80rpx;
+    width: 690rpx;
+}
+

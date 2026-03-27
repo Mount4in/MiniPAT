@@ -1,0 +1,3 @@
+	<radio-group bindchange="checkedChange" class="">
+		<slot>		</slot>
+	</radio-group>

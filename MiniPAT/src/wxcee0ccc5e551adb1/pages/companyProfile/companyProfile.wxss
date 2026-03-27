@@ -1,0 +1,129 @@
+.aboutYuantong {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 30rpx;
+    width: 100vw;
+}
+
+.aboutYuantong .button_bg {
+    height: 104rpx;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 396rpx;
+}
+
+.aboutYuantong .button_bg.button_bg1 {
+    transform: rotate(180deg);
+}
+
+.aboutYuantong.tabs {
+    padding: 0;
+}
+
+.aboutYuantong .pd {
+    padding: 0 30rpx;
+}
+
+.pb {
+    padding-bottom: 50rpx;
+}
+
+.title {
+    color: #151719;
+    font-family: SourceHanSansSC;
+    font-size: 48rpx;
+    font-weight: 800;
+    line-height: 70rpx;
+    margin: 40rpx 0 20rpx;
+}
+
+.title.title1 {
+    margin-top: 20rpx;
+}
+
+.desc {
+    color: #52585f;
+    font-family: SourceHanSansSC;
+    font-size: 32rpx;
+    font-weight: 400;
+    line-height: 44rpx;
+    margin-bottom: 40rpx;
+    max-height: 140rpx;
+    overflow: auto;
+}
+
+swiper {
+    height: 440rpx;
+}
+
+.swiper-item {
+    box-sizing: border-box;
+    height: 440rpx;
+    padding-right: 20rpx;
+    position: relative;
+}
+
+.swiper-image,.swiper-item {
+    border-radius: 16rpx;
+    width: 100%;
+}
+
+.swiper-image {
+    height: 440rpx!important;
+}
+
+.swiper-text {
+    bottom: 20rpx;
+    color: #fff;
+    font-family: SourceHanSansSC;
+    margin: 0 40rpx 0 20rpx;
+    position: absolute;
+}
+
+.swiper-text .swiper-text-title {
+    font-size: 44rpx;
+    font-weight: 800;
+    line-height: 64rpx;
+}
+
+.swiper-text .swiper-text-text {
+    font-size: 32rpx;
+    font-weight: 400;
+    line-height: 44rpx;
+}
+
+.aboutYuantongTabs {
+    font-family: PingFangSC,PingFang SC;
+    font-size: 32rpx;
+    font-weight: 500;
+    margin-top: 20rpx;
+}
+
+.aboutYuantongTabs,.aboutYuantongTabs view {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 104rpx;
+}
+
+.aboutYuantongTabs view {
+    flex: 1;
+    justify-content: center;
+    position: relative;
+}
+
+.aboutYuantongTabs view text {
+    color: #171921;
+    z-index: 2;
+}
+
+.aboutYuantongTabs .tabsActive {
+    width: 354rpx;
+}
+
+.aboutYuantongTabsActive {
+    color: #824c96!important;
+    z-index: 2!important;
+}
+

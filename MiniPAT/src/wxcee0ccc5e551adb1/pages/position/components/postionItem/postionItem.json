@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+        "biographicalNotes": "../../../../components/biographicalNotes/biographicalNotes",
+        "i18nFloat": "/components/i18nFloat/index"
+    }
+}

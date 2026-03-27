@@ -1,0 +1,82 @@
+view {
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: #fff;
+    color: #52585f;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 30rpx;
+    font-weight: 500;
+    padding: 40rpx 20rpx;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.title .name {
+    color: #824c96;
+    padding: 0 10rpx;
+    text-decoration: underline;
+}
+
+.list {
+    flex-wrap: wrap;
+    padding: 0 20rpx 50rpx;
+}
+
+.list,.list .text {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.list .text {
+    background: #f7f8fa;
+    border-radius: 4rpx;
+    color: #52585f;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    height: 120rpx;
+    justify-content: center;
+    margin: 10rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: pre-wrap;
+    width: 210rpx;
+    word-break: break-all;
+}
+
+.list .text.active {
+    border: 2rpx solid #824c96;
+    color: #824c96;
+}
+
+.icon-location {
+    height: 36rpx;
+    margin-right: 8rpx;
+    width: 36rpx;
+}
+
+.icon-target {
+    height: 28rpx;
+    margin: 0 8rpx 0 30rpx;
+    width: 28rpx;
+}
+
+.location-text {
+    color: #fe8201;
+}
+
+.flex-a-center {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.title-location {
+    flex-wrap: wrap;
+}
+

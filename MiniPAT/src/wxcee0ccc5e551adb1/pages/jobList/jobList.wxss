@@ -1,0 +1,131 @@
+.van-collapse-item-list {
+    max-height: calc(100vh - 530rpx);
+    overflow-y: scroll;
+}
+
+.jobList .jobList-screen {
+    background: #fff;
+    border-radius: 16rpx;
+    box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(0,0,0,.1);
+    margin: 20rpx 30rpx 0;
+    padding-top: 20rpx;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rpx;
+    width: 690rpx;
+    z-index: 2;
+}
+
+.jobList .jobList-screen .jobList-screen-search {
+    align-items: center;
+    background: #f2f3f4;
+    border-radius: 40rpx;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 80rpx;
+    margin: 0rpx 0 26rpx 32rpx;
+    padding: 0 26rpx;
+    width: 630rpx;
+}
+
+.jobList .jobList-screen .jobList-screen-search .weui-input {
+    padding: 0 14rpx;
+}
+
+.jobList .jobList-screen .jobList-screen-select {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 30rpx;
+    padding-bottom: 26rpx;
+}
+
+.jobList .officialAccountIsShow {
+    padding-bottom: 120rpx;
+}
+
+.officialAccount {
+    bottom: 20rpx;
+    height: 80rpx;
+    left: 20rpx;
+    position: fixed;
+    z-index: 3;
+}
+
+.positionListSearch {
+    padding: 7rpx 0;
+}
+
+.active {
+    color: #824c96!important;
+}
+
+.loading {
+    padding-top: 10rpx;
+}
+
+.van-collapse-item__content {
+    padding: 0!important;
+}
+
+.custom-class-item .van-cell__title {
+    color: #171921;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    padding-left: 30rpx;
+}
+
+.custom-class-item .van-cell__right-icon-wrap {
+    color: #171921;
+    margin-right: 30rpx;
+}
+
+.custom-class-item .van-cell {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    line-height: 80rpx;
+    padding-bottom: 0;
+    padding-top: 0rpx;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.van-cell::after,[class*=van-hairline]::after {
+    border: none!important;
+}
+
+.listEmpty-inner {
+    margin-top: 5%;
+}
+
+.listEmpty-inner__icon {
+    height: 202rpx;
+    width: 300rpx;
+}
+
+.jobList-search-content {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30rpx;
+    padding-bottom: 26rpx;
+}
+
+.jobList-search-content-position text {
+    color: #151719;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    margin-right: 40rpx;
+}
+
+.jobList-filter {
+    display: -webkit-flex;
+    display: flex;
+}
+

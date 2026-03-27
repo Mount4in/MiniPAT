@@ -1,0 +1,25 @@
+.scroll-wrap {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.scroll-wrap .scroll-header {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.scroll-wrap .scroll-box {
+    flex: 1;
+    height: 0;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.scroll-refresh {
+    width: 100%;
+}
+

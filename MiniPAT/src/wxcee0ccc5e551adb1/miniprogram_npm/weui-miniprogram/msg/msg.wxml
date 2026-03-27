@@ -1,0 +1,26 @@
+	<view class="weui-msg ">
+		<view class="weui-msg__icon-area">		</view>
+		<view class="weui-msg__text-area">
+			<view class="weui-msg__title">
+			</view>
+			<view class="weui-msg__desc">
+				<slot name="desc">				</slot>
+			</view>
+			<slot name="extend">			</slot>
+		</view>
+		<view class="weui-msg__opr-area">
+			<view class="weui-btn-area">
+				<slot name="handle">				</slot>
+			</view>
+		</view>
+		<view class="weui-msg__tips-area">
+			<view class="weui-msg__tips">
+				<slot name="tips">				</slot>
+			</view>
+		</view>
+		<view class="weui-msg__extra-area">
+			<view class="weui-footer">
+				<slot name="footer">				</slot>
+			</view>
+		</view>
+	</view>

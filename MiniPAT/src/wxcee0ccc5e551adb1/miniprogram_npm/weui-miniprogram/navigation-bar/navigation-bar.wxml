@@ -1,0 +1,14 @@
+	<view class="weui-navigation-bar ">
+		<view class="weui-navigation-bar__placeholder android" style="padding-top: px;visibility: hidden;">		</view>
+		<view class="weui-navigation-bar__inner android" style="padding-top: px; color: ;background: ;;;;">
+			<view class="weui-navigation-bar__left" style="">
+				<slot name="left">				</slot>
+			</view>
+			<view class="weui-navigation-bar__center">
+				<slot name="center">				</slot>
+			</view>
+			<view class="weui-navigation-bar__right">
+				<slot name="right">				</slot>
+			</view>
+		</view>
+	</view>

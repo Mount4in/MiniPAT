@@ -1,0 +1,345 @@
+.flex,.resume-title {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.resume-title {
+    align-items: center;
+    border-bottom: 2rpx solid #e9e9e9;
+    color: #151719;
+    font-size: 30rpx;
+    font-weight: 500;
+    height: 80rpx;
+    margin-bottom: 28rpx;
+    padding: 0 30rpx;
+}
+
+.resume-title::before {
+    background: #824c96;
+    border-radius: 2rpx;
+    content: "";
+    display: inline-block;
+    height: 30rpx;
+    margin-right: 10rpx;
+    width: 4rpx;
+}
+
+.resume-item {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 28rpx;
+    height: 64rpx;
+    padding: 0 30rpx;
+}
+
+.resume-item__label {
+    color: #52585f;
+    font-size: 28rpx;
+    min-width: 288rpx;
+    width: 288rpx;
+}
+
+.resume-item input {
+    flex: 1;
+    text-overflow: ellipsis;
+}
+
+.resume-item--required {
+    color: #dc4646;
+    font-size: 28rpx;
+    font-weight: 500;
+}
+
+radio {
+    margin-right: 12rpx;
+}
+
+radio .radio-input {
+    height: 32rpx;
+    width: 32rpx;
+}
+
+.ml-60 {
+    margin-left: 60px;
+}
+
+.mt-30 {
+    margin-top: 30rpx;
+}
+
+.ml-40 {
+    margin-left: 40rpx;
+}
+
+input {
+    font-size: 28rpx;
+}
+
+.add-btn,.arrow {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.add-btn {
+    background: #fff;
+    border: 2rpx solid #824c96;
+    border-radius: 8rpx;
+    color: #824c96;
+    font-size: 24rpx;
+    font-weight: 400;
+    padding: 10rpx;
+    width: -webkit-fit-content;
+    width: fit-content;
+}
+
+.resumeUpload-file {
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+}
+
+.resumeUpload-file .resumeUpload-file-data {
+    background: #fff;
+    border-radius: 16rpx;
+    box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(0,0,0,.1);
+    color: #747577;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    padding: 40rpx 20rpx;
+    text-align: center;
+}
+
+.resumeUpload-file .resumeUpload-file-data .upload {
+    height: 72rpx;
+    margin-bottom: 20rpx;
+    width: 492rpx;
+}
+
+.resumeUpload-file .resumeUpload-file-data view {
+    word-wrap: break-word;
+    text-align: left;
+    word-break: break-all;
+}
+
+.resumeUpload-file .van-cell-list {
+    background: #fff!important;
+    border-radius: 16rpx!important;
+    box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(0,0,0,.1)!important;
+    box-sizing: border-box!important;
+    margin-bottom: 20rpx!important;
+    padding: 0!important;
+}
+
+.resumeUpload-file .cell-time .delete {
+    height: 32rpx;
+    margin: 0 20rpx;
+    width: 32rpx;
+}
+
+.resumeUpload-file .list-tips {
+    color: #747577;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    text-align: center;
+}
+
+.resumeUpload-file .biographicalNotes {
+    height: 100rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    width: 100rpx;
+}
+
+.resumeUpload-file .title {
+    align-items: center;
+    color: #151719;
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 34rpx;
+    font-weight: 500;
+    margin-bottom: 20rpx;
+    padding: 60rpx 0;
+}
+
+.resumeUpload-file .title .pathName {
+    max-width: 500rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.resumeUpload-file .title .cell-time {
+    color: #52585f;
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-top: 32rpx;
+}
+
+.action-upload {
+    align-items: center;
+    background: rgba(130,76,150,.12);
+    border: 2rpx dashed #824c96;
+    border-radius: 8rpx;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    height: 72rpx;
+    justify-content: center;
+    margin-bottom: 20rpx;
+    min-width: 492rpx;
+    padding: 0 20rpx;
+}
+
+.action-upload__image {
+    flex-shrink: 0;
+    height: 36rpx;
+    margin-right: 16rpx;
+    vertical-align: top;
+    width: 44rpx;
+}
+
+.action-upload__text {
+    color: #824c96;
+    font-size: 28rpx;
+    line-height: 40rpx;
+}
+
+.resumeUpload-btn {
+    background: #fff;
+    bottom: 0;
+    box-shadow: inset 0rpx 1rpx 2rpx 0rpx rgba(0,0,0,.1);
+    color: #fff;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 32rpx;
+    font-weight: 400;
+    left: 0;
+    padding: 16rpx 0 100rpx;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+}
+
+.resumeUpload-btn,.resumeUpload-btn .resumeUpload-btn-container {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resumeUpload-btn .resumeUpload-btn-container {
+    width: 100%;
+}
+
+.resumeUpload-btn .btn {
+    align-items: center;
+    background: #824c96;
+    border-radius: 40rpx;
+    display: -webkit-flex;
+    display: flex;
+    height: 80rpx;
+    justify-content: center;
+    width: 210rpx;
+}
+
+.resumeUpload-btn .modify-btn {
+    width: 690rpx;
+}
+
+.resumeUpload-btn .cancle {
+    background: #fff;
+    border: 2rpx solid #824c96;
+    color: #824c96;
+}
+
+.area-select-container {
+    background: rgba(0,0,0,.7);
+    bottom: 0;
+    left: 0;
+    padding-top: 500rpx;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.work-item + .work-item {
+    border-top: 2rpx solid #e9e9e9;
+}
+
+.delete-btn {
+    margin-bottom: 20rpx;
+    margin-right: 30rpx;
+}
+
+.privacyPolicyTitle {
+    border: 2rpx solid #ebe5e5;
+    font-size: 32rpx;
+    font-weight: 700;
+    padding: 20rpx 0;
+    text-align: center;
+}
+
+.privacyPolicyText {
+    max-height: calc(100vh - 600rpx);
+    overflow-y: scroll;
+    padding: 20rpx;
+}
+
+.privacyPolicyText view {
+    font-size: 26rpx;
+    line-height: 60rpx;
+}
+
+.privacyPolicyFooter {
+    padding: 50rpx 0 20rpx;
+    text-align: center;
+}
+
+.privacyPolicyFooter .privacyPolicyFooterTips {
+    color: #867e7e;
+    font-size: 26rpx;
+}
+
+.privacyPolicyFooter .privacyPolicyBtn {
+    margin-top: 30rpx;
+}
+
+.privacyPolicyFooter .privacyPolicyBtn,.privacyPolicyFooter .privacyPolicyBtn button,.privacyPolicyFooter .privacyPolicyBtn view {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.privacyPolicyFooter .privacyPolicyBtn button,.privacyPolicyFooter .privacyPolicyBtn view {
+    background: #824c96;
+    border-radius: 40rpx;
+    box-sizing: border-box;
+    color: #fff;
+    height: 80rpx;
+    margin: 0;
+    width: 300rpx;
+}
+
+.privacyPolicyFooter .privacyPolicyBtn .noAgree {
+    background: #fff;
+    border: 2rpx solid #824c96;
+    color: #824c96;
+    margin-right: 30rpx;
+}
+
+.file-empty {
+    align-items: center;
+    color: #52585f;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 28rpx;
+    justify-content: center;
+}
+

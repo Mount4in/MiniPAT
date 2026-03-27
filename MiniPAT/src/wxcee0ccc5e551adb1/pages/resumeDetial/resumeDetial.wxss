@@ -1,0 +1,51 @@
+.flex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+page {
+    padding-bottom: 260rpx;
+}
+
+.resume-tab {
+    background: #fff;
+    display: -webkit-flex;
+    display: flex;
+    padding-bottom: 10rpx;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.resume-tab__item {
+    color: #151719;
+    flex: 1;
+    font-size: 28rpx;
+    height: 60rpx;
+    line-height: 40rpx;
+    position: relative;
+    text-align: center;
+}
+
+.resume-tab__item::after {
+    background: #824c96;
+    border-radius: 4rpx;
+    content: "";
+    display: block;
+    height: 8rpx;
+    margin: 10rpx auto 0;
+    max-height: 0rpx;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    width: 120rpx;
+}
+
+.resume-tab__item--activity {
+    font-weight: 500;
+}
+
+.resume-tab__item--activity::after {
+    max-height: 8rpx;
+}
+

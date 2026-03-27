@@ -1,0 +1,10 @@
+{
+    "component": true,
+    "usingComponents": {
+        "van-icon": "../../../../miniprogram_npm/@vant/weapp/icon/index",
+        "area-select": "../../../../components/areaSelecte/index",
+        "van-popup": "../../../../miniprogram_npm/@vant/weapp/popup/index",
+        "disability-set": "../disabilitySet/index",
+        "i18nFloat": "/components/i18nFloat/index"
+    }
+}

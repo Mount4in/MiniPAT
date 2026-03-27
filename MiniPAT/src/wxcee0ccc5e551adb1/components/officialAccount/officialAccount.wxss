@@ -1,0 +1,89 @@
+.officialAccount {
+    align-items: center;
+    background: #52585f;
+    border-radius: 40rpx;
+    bottom: 20rpx;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    left: 20rpx;
+    padding: 15rpx 0 15rpx 26rpx;
+    position: fixed;
+    width: 710rpx;
+    z-index: 3;
+}
+
+.officialAccount text {
+    font-size: 24rpx;
+    margin-left: 18rpx;
+    margin-right: 18rpx;
+    width: 482rpx;
+}
+
+.officialAccount .follow,.officialAccount text {
+    color: #fff;
+    font-family: PingFangSC,PingFang SC;
+    font-weight: 400;
+}
+
+.officialAccount .follow {
+    align-items: center;
+    background: #ff9c00;
+    border-radius: 24rpx;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 28rpx;
+    height: 48rpx;
+    justify-content: center;
+    width: 116rpx;
+}
+
+.officialAccountPop {
+    margin: 100rpx;
+    position: relative;
+}
+
+.officialAccountPop,.officialAccountPop-bg {
+    height: 620rpx;
+    width: 450rpx;
+}
+
+.officialAccountPop .officialAccountPop-list {
+    align-items: center;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 24rpx;
+    font-weight: 500;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.officialAccountPop .officialAccountPop-list .officialAccount_logo {
+    height: 48rpx;
+    margin-bottom: 20rpx;
+    margin-top: 40rpx;
+    width: 48rpx;
+}
+
+.officialAccountPop .officialAccountPop-list .officialAccount_image {
+    background: #fff;
+    border-radius: 16rpx;
+    height: 320rpx;
+    margin-bottom: 20rpx;
+    margin-top: 40rpx;
+    width: 320rpx;
+}
+
+.officialAccountPop-close {
+    padding: 40rpx;
+    position: absolute;
+    right: -80rpx;
+    top: -80rpx;
+}
+

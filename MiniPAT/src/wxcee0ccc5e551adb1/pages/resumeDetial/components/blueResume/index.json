@@ -1,0 +1,8 @@
+{
+    "component": true,
+    "usingComponents": {
+        "van-icon": "../../../../miniprogram_npm/@vant/weapp/icon/index",
+        "disability-set": "../disabilitySet/index",
+        "i18nFloat": "/components/i18nFloat/index"
+    }
+}

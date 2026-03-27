@@ -1,0 +1,6 @@
+	<view ariaRole="" class=" weui-cells__group  ">
+		<view class="weui-cells weui-cells_after-title ">
+			<slot>			</slot>
+		</view>
+		<slot name="footer">		</slot>
+	</view>

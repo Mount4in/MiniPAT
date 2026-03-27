@@ -1,0 +1,15 @@
+	<view class="weui-uploader ">
+		<view class="weui-uploader__hd">
+			<view class="weui-uploader__overview">
+				<view class="weui-uploader__title">
+				</view>
+			</view>
+			<view>
+				<slot name="tips">				</slot>
+			</view>
+		</view>
+		<view class="weui-uploader__bd">
+			<view class="weui-uploader__files">			</view>
+		</view>
+	</view>
+	<mp-gallery binddelete="deletePic" class="gallery" current="" hideOnClick="true" imgUrls="" show="" showDelete="">	</mp-gallery>

@@ -1,0 +1,6 @@
+	<view class="weui-slideview weui-movable-view  " style="width: 100%;height: 100%;">
+		<view bindtouchstart="0x4c54a0" change:prop="0x4c54a0" duration="" change:disable="0x4c54a0" change:duration="0x4c54a0" change:rebounce="0x4c54a0" class="weui-slideview__left left" bindtouchend="0x4c54a0" bindtouchmove="0x4c54a0" bindtransitionend="0x4c54a0" rebounce="" show="" style="width:100%;" prop="" change:show="0x4c54a0" disable="">
+			<slot>			</slot>
+		</view>
+		<view class="weui-slideview__right right">		</view>
+	</view>

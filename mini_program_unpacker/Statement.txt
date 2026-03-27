@@ -1,0 +1,2 @@
+MiniPAT relies on KillWxapkg and ttpkgUnpacker to unpack mini-progarms.
+Due to potential legal risks, we do not provide KillWxapkg and ttpkgUnpacker in our codebase.

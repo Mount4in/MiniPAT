@@ -1,0 +1,64 @@
+.mutable-select {
+    width: 100%;
+}
+
+.select-action {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-action view {
+    color: #824c96;
+    padding: 20rpx;
+}
+
+.select-option {
+    margin-bottom: max(env(safe-area-inset-bottom),60rpx);
+    max-height: 40vh;
+    min-height: 200rpx;
+    overflow: auto;
+    padding: 0 40rpx;
+}
+
+.select-option-item {
+    padding: 10rpx 0;
+}
+
+.select-option-item checkbox {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.select-option-group {
+    flex-wrap: wrap;
+    gap: 0rpx 40rpx;
+}
+
+.select-option-group,.select-tag {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.select-tag {
+    align-items: center;
+    gap: 10rpx;
+}
+
+.select-tag view {
+    background-color: #f4f4f5;
+    border-color: #e9e9eb;
+    border-radius: 10rpx;
+    color: #909399;
+    padding: 0 10rpx;
+}
+
+.mutable-select-placeholder {
+    color: #b2b2b2;
+}
+
+.mt-40 {
+    margin-top: 40rpx;
+}
+

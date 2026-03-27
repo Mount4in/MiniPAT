@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "i18nFloat": "/components/i18nFloat/index"
+    }
+}

@@ -1,0 +1,85 @@
+.modify-popup {
+    background: #fff;
+    border-radius: 16rpx 16rpx 0rpx 0rpx;
+}
+
+.primary-text {
+    font-weight: 600;
+}
+
+.notice-process {
+    height: 28rpx;
+    vertical-align: top;
+    width: 650rpx;
+}
+
+.popup-title {
+    color: #824c96;
+    font-size: 32rpx;
+    font-weight: 600;
+    height: 44rpx;
+    line-height: 44rpx;
+    padding-top: 20rpx;
+    text-align: center;
+}
+
+.popup-hd {
+    position: relative;
+}
+
+.popup-bd {
+    max-height: 600rpx;
+    overflow-y: auto;
+    padding: 0 30rpx 80rpx;
+}
+
+.positionName {
+    word-wrap: break-word;
+    color: #151719;
+    font-size: 32rpx;
+    font-weight: 600;
+    line-height: 44rpx;
+    margin-top: 30rpx;
+    text-align: center;
+    word-break: break-all;
+}
+
+.invitation-icon {
+    flex-shrink: 0;
+    height: 48rpx;
+    margin-right: 20rpx;
+    width: 48rpx;
+}
+
+.invitation-title {
+    color: #171921;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 40rpx;
+    margin-top: 40rpx;
+}
+
+.invitation-cell,.invitation-title {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 28rpx;
+}
+
+.invitation-cell {
+    color: #52585f;
+    margin-top: 20rpx;
+}
+
+.invitation-cell__label {
+    flex-shrink: 0;
+}
+
+.invitation-desc {
+    word-wrap: break-word;
+    color: #52585f;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    word-break: break-all;
+}
+

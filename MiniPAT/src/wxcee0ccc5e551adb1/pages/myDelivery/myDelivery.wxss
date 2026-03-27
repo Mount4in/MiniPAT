@@ -1,0 +1,108 @@
+.selectPositionType {
+    position: relative;
+}
+
+.selectPositionType,.selectPositionType-bg {
+    height: 796rpx;
+    width: 610rpx;
+}
+
+.selectPositionType .selectPositionType-list {
+    align-items: center;
+    bottom: 0;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding-top: 136rpx;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.selectPositionType .selectPositionType-list view {
+    align-items: center;
+    background: #fff;
+    border-radius: 16rpx;
+    color: #4d148c;
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 32rpx;
+    font-weight: 500;
+    height: 120rpx;
+    justify-content: center;
+    margin-bottom: 40rpx;
+    width: 510rpx;
+}
+
+.positionList {
+    background-color: #fff;
+    padding: 40rpx 30rpx 0;
+}
+
+.positionList .positionList-company {
+    height: 76rpx;
+    margin: 28rpx auto 16rpx;
+    width: 266rpx;
+}
+
+.positionList .positionList-company image {
+    height: 76rpx;
+    width: 266rpx;
+}
+
+.positionList .positionList-screen {
+    background: #fff;
+    border-radius: 16rpx;
+    box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(0,0,0,.1);
+    height: 192rpx;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rpx;
+    width: 690rpx;
+    z-index: 2;
+}
+
+.positionList .positionList-screen .positionList-screen-down {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 10rpx 40rpx 0rpx;
+}
+
+.positionList .positionList-screen .positionList-screen-down .fieldValue {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.positionList .positionList-screen .positionList-screen-down .fieldValue text {
+    line-clamp: 1;
+    box-sizing: border-box;
+    display: -webkit-box;
+    max-width: 180rpx;
+    overflow: hidden;
+}
+
+.positionList .positionList-screen .positionList-screen-down text {
+    color: #151719;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    margin-right: 12rpx;
+}
+
+.positionList .positionList-data {
+    padding-bottom: 50rpx;
+}
+
+.officialAccount {
+    bottom: 0;
+    height: 80rpx;
+    left: 20rpx;
+    position: fixed;
+    z-index: 3;
+}
+

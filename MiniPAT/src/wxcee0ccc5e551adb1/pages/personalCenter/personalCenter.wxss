@@ -1,0 +1,266 @@
+.personalCenter {
+    width: 750rpx;
+}
+
+.personalCenter .personalLogin {
+    position: relative;
+}
+
+.personalCenter .personalLogin .personalLogin-bg {
+    height: 456rpx;
+    width: 750rpx;
+}
+
+.personalCenter .personalLogin .personalLogin-text {
+    align-items: center;
+    bottom: 120rpx;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    left: 64rpx;
+    position: absolute;
+    right: 64rpx;
+}
+
+.personalCenter .personalLogin .personalLogin-text .personalLogin-tips {
+    color: #fff;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 32rpx;
+    font-weight: 600;
+    width: 368rpx;
+}
+
+.personalCenter .personalLogin .personalLogin-text .personalLogin-tips .user {
+    font-size: 28rpx;
+    margin-top: 20rpx;
+}
+
+.personalCenter .personalLogin .personalLogin-text .personalLogin-tips .user text {
+    margin-left: 40rpx;
+    text-decoration: underline;
+}
+
+.personalCenter .personalLogin .personalLogin-text .login-avart {
+    background: transparent;
+    height: 120rpx;
+    margin: 0;
+    padding: 0;
+    width: 120rpx;
+}
+
+.personalCenter .personalLogin .personalLogin-text .login-avart image,.personalCenter .personalLogin .personalLogin-text .personalLogin-headsculpture image {
+    height: 120rpx;
+    width: 120rpx;
+}
+
+.personalCenter .personalFrom {
+    background: #fff;
+    border-radius: 16rpx;
+    box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(0,0,0,.1);
+    left: 30rpx;
+    position: relative;
+    top: -90rpx;
+    width: 690rpx;
+}
+
+.personalCenter .personalFrom .personalFrom-item {
+    align-items: center;
+    border-bottom: 2rpx solid #e2e6e8;
+    color: #151719;
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    height: 102rpx;
+    justify-content: space-between;
+    margin: 0 30rpx;
+}
+
+.personalCenter .personalFrom .personalFrom-item.-b {
+    border-bottom: none;
+}
+
+.personalCenter .personalFrom .personalFrom-item .myArrow {
+    height: 36rpx;
+    width: 36rpx;
+}
+
+.personalCenter .personalFrom .personalFrom-item .lable {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.personalCenter .personalFrom .personalFrom-item .lable .number {
+    color: #fe8201;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 500;
+    margin-left: 20rpx;
+}
+
+.personalCenter .personalFrom .personalFrom-item .lable image {
+    height: 40rpx;
+    margin-right: 20rpx;
+    width: 40rpx;
+}
+
+.personalCenter .personalFrom .personalFrom-item .lable .start {
+    color: #dc4646;
+    margin-right: 6rpx;
+}
+
+.personalCenter .personalFrom .personalFrom-item .weui-input {
+    flex: 1;
+}
+
+.personalCenter .personalFrom .personalFrom-item .codeSendBtn {
+    align-items: center;
+    background: #fff;
+    border: 2rpx solid #824c96;
+    border-radius: 8rpx;
+    color: #824c96;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 24rpx;
+    height: 56rpx;
+    justify-content: center;
+    width: 140rpx;
+}
+
+.personalCenter .personalFrom .login {
+    background: #824c96;
+    border-radius: 40rpx;
+    color: #fff;
+    font-size: 32rpx;
+    height: 80rpx;
+    justify-content: center;
+    margin-top: 44rpx;
+    width: 610rpx;
+}
+
+.personalCenter .personalFrom .login,.personalCenter .personalFrom .privacyPolicy {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFangSC,PingFang SC;
+    font-weight: 400;
+    margin-left: 40rpx;
+}
+
+.personalCenter .personalFrom .privacyPolicy {
+    color: #151719;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}
+
+.personalCenter .personalFrom .privacyPolicy text {
+    color: #824c96;
+    text-decoration: underline;
+}
+
+.personalFrom-yto {
+    background: #fff;
+    border-radius: 16rpx;
+    box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(0,0,0,.1);
+    box-sizing: border-box;
+    height: 102rpx;
+    justify-content: space-between;
+    margin: 0 30rpx;
+    padding: 0 30rpx;
+    position: relative;
+    top: -70rpx;
+    width: 690rpx;
+}
+
+.personalFrom-yto,.personalFrom-yto .lable {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.personalFrom-yto .lable {
+    color: #151719;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+}
+
+.personalFrom-yto .lable image {
+    height: 40rpx;
+    margin-right: 20rpx;
+    width: 40rpx;
+}
+
+.personalFrom-yto .myArrow {
+    height: 36rpx;
+    width: 36rpx;
+}
+
+.personalFrom-logoff {
+    font-family: PingFangSC,PingFang SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+}
+
+.personalFrom-logoff text {
+    color: #824c96;
+    text-decoration: underline;
+}
+
+.logoff-title {
+    color: #171921;
+    font-size: 32rpx;
+    font-weight: 500;
+    padding: 60rpx 0 40rpx;
+    text-align: center;
+}
+
+.logoff-content,.logoff-title {
+    font-family: PingFangSC,PingFang SC;
+}
+
+.logoff-content {
+    color: #52585f;
+    font-size: 24rpx;
+    font-weight: 400;
+    margin: 0 40rpx;
+    padding-bottom: 100rpx;
+}
+
+.logoff-content view {
+    margin-bottom: 30rpx;
+}
+
+.logoff-btnList {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40rpx 40rpx;
+}
+
+.logoff-btnList .cancle {
+    background: #fff;
+    border: 2rpx solid #824c96;
+    color: #824c96;
+}
+
+.logoff-btnList view {
+    align-items: center;
+    background: #824c96;
+    border-radius: 36rpx;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    height: 72rpx;
+    justify-content: center;
+    width: 228rpx;
+}
+

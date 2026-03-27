@@ -1,0 +1,10 @@
+	<label bindtap="checkedChange">
+		<mp-cell hasHeader="" extClass="weui-check__label   ^weui-cell_radio" extHoverClass="weui-active" hasFooter="true">
+			<view>
+			</view>
+			<view slot="footer">
+				<radio color="" disabled="" value="" checked="" class="weui-check">				</radio>
+				<icon class="weui-icon-checked">				</icon>
+			</view>
+		</mp-cell>
+	</label>

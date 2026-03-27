@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "van-slider": "../../miniprogram_npm/@vant/weapp/slider/index",
+        "i18nFloat": "/components/i18nFloat/index"
+    }
+}

@@ -1,0 +1,13 @@
+	<view class="weui-search-bar  ">
+		<view ariaRole="combobox" class="weui-search-bar__form" ariaHaspopup="true" ariaExpanded="" ariaOwns="searchResult">
+			<view class="weui-search-bar__box">
+				<icon class="weui-icon-search" size="12" type="search">				</icon>
+				<input ariaControls="searchResult" bindinput="inputChange" focus="" value="" bindblur="inputBlur" bindfocus="inputFocus" class="weui-search-bar__input" placeholder="" type="text">				</input>
+			</view>
+			<label bindtap="showInput" class="weui-search-bar__label" id="searchText">
+				<icon class="weui-icon-search" size="12" type="search">				</icon>
+				<text ariaHidden="true" class="weui-search-bar__text">
+				</text>
+			</label>
+		</view>
+	</view>

@@ -1,0 +1,40 @@
+.resume-item {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 28rpx;
+    height: 64rpx;
+    padding: 0 30rpx;
+}
+
+.resume-item__label {
+    color: #52585f;
+    font-size: 28rpx;
+    min-width: 288rpx;
+    width: 288rpx;
+}
+
+.resume-item input {
+    flex: 1;
+    text-overflow: ellipsis;
+}
+
+.resume-item--required {
+    color: #dc4646;
+    font-size: 28rpx;
+    font-weight: 500;
+}
+
+radio {
+    margin-right: 12rpx;
+}
+
+radio .radio-input {
+    height: 32rpx;
+    width: 32rpx;
+}
+
+.ml-60 {
+    margin-left: 60px;
+}
+

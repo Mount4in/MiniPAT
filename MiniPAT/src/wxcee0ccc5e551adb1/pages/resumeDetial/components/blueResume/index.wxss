@@ -1,0 +1,93 @@
+.resume-item {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 28rpx;
+    height: 64rpx;
+    padding: 0 30rpx;
+}
+
+.resume-item__label {
+    color: #52585f;
+    font-size: 28rpx;
+    min-width: 288rpx;
+    width: 288rpx;
+}
+
+.resume-item input {
+    flex: 1;
+    text-overflow: ellipsis;
+}
+
+.resume-item--required {
+    color: #dc4646;
+    font-size: 28rpx;
+    font-weight: 500;
+}
+
+.resumeUpload-btn {
+    background: #fff;
+    bottom: 0;
+    box-shadow: inset 0rpx 1rpx 2rpx 0rpx rgba(0,0,0,.1);
+    color: #fff;
+    font-family: PingFangSC,PingFang SC;
+    font-size: 32rpx;
+    font-weight: 400;
+    left: 0;
+    padding: 16rpx 0 100rpx;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+}
+
+.resumeUpload-btn,.resumeUpload-btn .resumeUpload-btn-container {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resumeUpload-btn .resumeUpload-btn-container {
+    width: 100%;
+}
+
+.resumeUpload-btn .btn {
+    align-items: center;
+    background: #824c96;
+    border-radius: 40rpx;
+    display: -webkit-flex;
+    display: flex;
+    height: 80rpx;
+    justify-content: center;
+    width: 210rpx;
+}
+
+.resumeUpload-btn .modify-btn {
+    width: 690rpx;
+}
+
+.resumeUpload-btn .cancle {
+    background: #fff;
+    border: 2rpx solid #824c96;
+    color: #824c96;
+}
+
+radio {
+    margin-right: 12rpx;
+}
+
+radio .radio-input {
+    height: 32rpx;
+    width: 32rpx;
+}
+
+.ml-60 {
+    margin-left: 60px;
+}
+
+.icon-location {
+    height: 44rpx;
+    padding: 20rpx;
+    width: 32rpx;
+}
+

@@ -1,0 +1,57 @@
+// pages/main/pages/login/login getPhoneNumber Data Flow
+digraph {
+	f834601bcd604f529e3f7cb5ab167e0f [label="FunctionCall,
+function name -> getPhoneNumber,
+param -> e,
+" color=blue]
+	"12990689177a4892a435b0dd97a748f7" [label="CallExpression,
+callee name -> util.request,
+param -> ,
+httprequest -> True" color=blue]
+	"5dbe989c17c24e45bb8ae8901fd8a8a3" [label="Object Properties
+{
+code -> e.detail.code
+}" color=blue]
+	"12990689177a4892a435b0dd97a748f7" -> "5dbe989c17c24e45bb8ae8901fd8a8a3"
+	"8aff72459576424aaceaa611505b30ad" [label="FunctionCall,
+function name -> then,
+param -> result,
+" color=blue]
+	a4cce478e4334f6ba869ef0895f9a856 [label="If Test" color=blue]
+	"2f9a8394ff9745109c99247d29a61d32" [label="CallExpression,
+callee name -> _this.loginEvent,
+param -> result.data.data.phoneNumber,
+,
+httprequest -> False" color=blue]
+	a222992d82b146049d31563fed483576 [label="FunctionCall,
+function name -> loginEvent,
+param -> phoneNumber,
+phoneNumber.,
+" color=blue]
+	c14eb112a0574303ab3d329c9f8669e0 [label=VariableDeclarations color=blue]
+	d9f6a5008a9247a584ac8164d49b1d34 [label="VariableDeclarator,
+left -> params,
+right -> None" color=blue]
+	"575c08102696476782ca066bd9e738c4" [label="Object Properties
+{
+phoneNumber -> phoneNumber
+}" color=blue]
+	d9f6a5008a9247a584ac8164d49b1d34 -> "575c08102696476782ca066bd9e738c4"
+	c14eb112a0574303ab3d329c9f8669e0 -> d9f6a5008a9247a584ac8164d49b1d34
+	a222992d82b146049d31563fed483576 -> c14eb112a0574303ab3d329c9f8669e0
+	c1375e3f13164e00a5edbd00479aa0d6 [label="CallExpression,
+callee name -> util.request,
+param -> ,
+httprequest -> True" color=blue]
+	"4e2c336e058f43bbb1d814e909f72f75" [label="Object Properties
+{
+data -> params
+}" color=blue]
+	c1375e3f13164e00a5edbd00479aa0d6 -> "4e2c336e058f43bbb1d814e909f72f75"
+	a222992d82b146049d31563fed483576 -> c1375e3f13164e00a5edbd00479aa0d6
+	"2f9a8394ff9745109c99247d29a61d32" -> a222992d82b146049d31563fed483576
+	a4cce478e4334f6ba869ef0895f9a856 -> "2f9a8394ff9745109c99247d29a61d32"
+	"8aff72459576424aaceaa611505b30ad" -> a4cce478e4334f6ba869ef0895f9a856
+	"12990689177a4892a435b0dd97a748f7" -> "8aff72459576424aaceaa611505b30ad"
+	f834601bcd604f529e3f7cb5ab167e0f -> "12990689177a4892a435b0dd97a748f7"
+}
